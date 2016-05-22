@@ -1,4 +1,4 @@
-div {
+.circle {
     height: 200px;
     width: 200px;
     border-radius: 100%;
@@ -95,7 +95,9 @@ span {
     padding-left: 10px;
 }
 #main {
-    position: absolute;
-    top: 25%;
-    left: 25%;
+    padding-top: 100px;
+}
+
+#main>table {
+    margin: 0 auto;
 }
