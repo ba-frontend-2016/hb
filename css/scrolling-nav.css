@@ -58,3 +58,15 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #eee;
 }
+
+.embeded-page {
+    top: -100px;
+    width: 800px;
+    height: 460px;
+    display: block;
+    margin: 0 auto;
+}
+
+.embeded-page::after {
+    content: ' '
+}

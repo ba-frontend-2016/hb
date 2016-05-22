@@ -1,0 +1,92 @@
+.wrapper {
+    width: 100%;
+} 
+
+.content {
+    width: 540px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.row {
+    width: 540px;
+}
+
+.board .row:nth-child(even) .letter:nth-child(odd) {
+    background-color: black;
+    color: red;
+}
+
+.board .row:nth-child(odd) .letter:nth-child(even) {
+    background-color: black;
+    color: white;
+}
+
+.board:hover .row:not(:nth-child(even)) .letter:nth-child(even) {
+    background-color: white;
+    color: red;
+}
+
+.board:hover .row:not(:nth-child(odd)) .letter:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+ 
+.board {
+    transition: 1s;
+    transition-property: color, background-color;
+    transition-delay: 0 0;
+}
+
+.board:hover {
+    background-color: black;
+    color: red;
+}
+
+.letter {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    float:left;
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    border: 0;
+    transition: 1s;
+    transition-property: background-color, color, transform;
+    transition-delay: 0s;
+    transform-style: preserve-3d;
+}
+
+.board:hover .letter {
+    transform: rotateY(180deg);
+}
+
+.row::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.sign {
+    font-family: 'Petit Formal Script', cursive;
+    width: 540px;
+    box-shadow: 1px 1px 20px 0px #000000;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 26px;
+    color:#fff;
+    background-color: black;
+}
+
+.frame-shadow {
+    box-shadow: 1px 1px 20px 0px #000000;
+}
+
+.image {
+    width: 540px;
+    overflow: hidden;
+}
