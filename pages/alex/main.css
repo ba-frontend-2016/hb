@@ -1,0 +1,59 @@
+.index-body {
+    background: #82b2e0;
+}
+.text {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial;
+    color: white;
+    padding-bottom: 20px;
+}
+.button {
+    background: linear-gradient(#9cb4ff, #019ad2);
+    border: 1px solid #0941a4;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 6px 24px;
+    font-family: Arial;
+    font-weight: bold;
+    position: absolute;
+    left: 330px
+}
+.button:hover {
+    background: linear-gradient(#019ad2, #9cb4ff);
+}
+.button:active{
+    position: relative;
+    top: 1px;
+}
+
+///////////////////////////////////////////////
+second page
+///////////////////////////////////////////////
+
+
+.second-page {
+    background: #0016ff;
+}
+.trainer {
+    width: 200px;
+    height: auto;
+    padding: 20px 100px 0 100px;
+}
+h2 {
+    font-family: Arial;
+    color: #019ad2;
+    font-size: 15px;
+    position: absolute;
+    right: 4px;
+    padding: 0 100px;
+}
+.main-string {
+    color: red;
+    font-size: 18px;
+}
+.second-button {
+    left: 600px
+}
