@@ -62,7 +62,7 @@
 }
 
 .board:hover .letter {
-    transform: rotateY(180deg);
+    transform: rotateY(360deg);
 }
 
 .row::after {
