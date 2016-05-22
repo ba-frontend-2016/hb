@@ -178,6 +178,21 @@ of those sections to manage the look and feel of the site. */
 	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
 	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
 	background-color:#ffab23;
+    color: #ffffff;
 }
 
+.alex-button {
+    background: linear-gradient(#9cb4ff, #019ad2);
+    border: 1px solid #0941a4;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 6px 24px;
+    font-family: Arial;
+    font-weight: bold;
+}
 
+.alex-button:hover {
+    background: linear-gradient(#019ad2, #9cb4ff);
+}
+ 
