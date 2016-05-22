@@ -61,7 +61,7 @@ of those sections to manage the look and feel of the site. */
 
 .embeded-page {
     top: -100px;
-    width: 800px;
+    width: 100%;
     height: 460px;
     display: block;
     margin: 0 auto;
