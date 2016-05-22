@@ -25,21 +25,29 @@
     position: relative;
 }
 .drdrdr {
+    margin: 0 auto 30px;
     top: 0;
     z-index: 2;
-    margin: 0 auto;
     width: 450px;
     height: 450px;
-    /*margin-top: -225px;*/
-    /*margin-left: -225px;*/
-    font-family: Arial;
     text-align: center;
 }
 
 .drdrdr p {
     font-size: 25px;
 }
+.drdrdr h1:first-child {
+    margin: 0 0 30px;
+}
 
 .background-section-valya {
     background-color: deeppink;
+}
+
+.background-section-andrii {
+    background-color: #000;
+}
+
+.background-section-andrii h1 {
+    color: #FDFE62;
 }
