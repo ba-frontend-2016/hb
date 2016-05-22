@@ -1,4 +1,45 @@
 .intro-back-image {
-    background: url('../img/maxresdefault.jpg') no-repeat center;
-    background-size: cover;
+    background: url('../img/maxresdefault.jpg') no-repeat center top;
+    background-size: auto 760px;
+    margin-top: 50px;
  }
+
+.btn-intro-style, .btn-intro-style:active, .btn-intro-style:focus, .btn-intro-style:active:focus {
+    background-color: #FF0207;
+    border-color: #FDFEF7;
+    border: 3px solid;
+    border-radius: 12px;
+    position: absolute;
+    right: 40px;
+    bottom: 20px;
+}
+
+.btn-intro-style:hover {
+    background-color: #FDFEF7;
+    border-color: #FF0207;
+    color: #FF0207;
+}
+
+.main-button-wrapper, .valya-content-wrapper {
+    height: 600px;
+    position: relative;
+}
+.drdrdr {
+    top: 0;
+    z-index: 2;
+    margin: 0 auto;
+    width: 450px;
+    height: 450px;
+    /*margin-top: -225px;*/
+    /*margin-left: -225px;*/
+    font-family: Arial;
+    text-align: center;
+}
+
+.drdrdr p {
+    font-size: 25px;
+}
+
+.background-section-valya {
+    background-color: deeppink;
+}
