@@ -178,6 +178,7 @@ of those sections to manage the look and feel of the site. */
 	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
 	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
 	background-color:#ffab23;
+	color: #ffffff;
 }
 
 .pasha-button {
@@ -217,4 +218,81 @@ of those sections to manage the look and feel of the site. */
 }
 
 
+.andrii-button {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fefe62), color-stop(1, #ffd324));
+	background:-moz-linear-gradient(top, #fefe62 5%, #ffd324 100%);
+	background:-webkit-linear-gradient(top, #fefe62 5%, #ffd324 100%);
+	background:-o-linear-gradient(top, #fefe62 5%, #ffd324 100%);
+	background:-ms-linear-gradient(top, #fefe62 5%, #ffd324 100%);
+	background:linear-gradient(to bottom, #fefe62 5%, #ffd324 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefe62', endColorstr='#ffd324',GradientType=0);
+	background-color:#fefe62;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.andrii-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffd324), color-stop(1, #fefe62));
+	background:-moz-linear-gradient(top, #ffd324 5%, #fefe62 100%);
+	background:-webkit-linear-gradient(top, #ffd324 5%, #fefe62 100%);
+	background:-o-linear-gradient(top, #ffd324 5%, #fefe62 100%);
+	background:-ms-linear-gradient(top, #ffd324 5%, #fefe62 100%);
+	background:linear-gradient(to bottom, #ffd324 5%, #fefe62 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd324', endColorstr='#fefe62',GradientType=0);
+	background-color:#ffd324;
+}
 
+.alex-button {
+    background: linear-gradient(#9cb4ff, #019ad2);
+    border: 1px solid #0941a4;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 6px 24px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.alex-button:hover {
+    background: linear-gradient(#019ad2, #9cb4ff);
+}
+ 
+.jaroslav-button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 11;
+  -moz-border-radius: 11;
+  border-radius: 11px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 8px 20px;
+  text-decoration: none;
+}
+
+.jaroslav-button {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}

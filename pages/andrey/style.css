@@ -1,0 +1,43 @@
+.content {
+    margin: 0 auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    display: block;
+    position: relative;
+}
+
+.congrats {
+    background: url("104216-thewallpaper.jpg") no-repeat center;
+    background-size: 940px 430px;
+    background-color: black;
+    max-height: 600px;
+    max-width: 1340px;
+}
+
+.congrats img {
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+    -o-transition: transform 2s;
+    transition: transform 2s ease-in;
+    display: block;
+    margin: 0 auto;
+}
+
+.congrats img:hover{
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+    -o-transition: transform 2s;
+    transition: transform 2s ease-in;
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transform: rotateY(90deg);
+    transform-style: preserve-3d;
+    display: block;
+    margin: 0 auto;
+}
