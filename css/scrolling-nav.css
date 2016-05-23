@@ -215,7 +215,7 @@ of those sections to manage the look and feel of the site. */
 	background:-ms-linear-gradient(top, #ffd324 5%, #fefe62 100%);
 	background:linear-gradient(to bottom, #ffd324 5%, #fefe62 100%);
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd324', endColorstr='#fefe62',GradientType=0);
-	background-color:#ffd324;
+	background-color:#ffd324;}
 .alex-button {
     background: linear-gradient(#9cb4ff, #019ad2);
     border: 1px solid #0941a4;
@@ -238,8 +238,8 @@ of those sections to manage the look and feel of the site. */
   background-image: -ms-linear-gradient(top, #3498db, #2980b9);
   background-image: -o-linear-gradient(top, #3498db, #2980b9);
   background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 11;
-  -moz-border-radius: 11;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
   border-radius: 11px;
   font-family: Arial;
   color: #ffffff;
@@ -256,5 +256,4 @@ of those sections to manage the look and feel of the site. */
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
->>>>>>> 0bcd77aa2399689c83f45354fe81f49123d35cb0
 }
