@@ -21,7 +21,7 @@
     -moz-transition: transform 2s;
     -ms-transition: transform 2s;
     -o-transition: transform 2s;
-    transition: transform 2s ease-in;
+    transition: transform 2s ease-out;
     display: block;
     margin: 0 auto;
 }

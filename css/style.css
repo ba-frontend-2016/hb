@@ -55,3 +55,13 @@ body {
 .background-section-andrii h1 {
     color: #FDFE62;
 }
+
+/*.navbar-default .navbar-nav li:nth-child(2).active a {*/
+     /*color: red;*/
+     /*background-color: blue;*/
+/*}*/
+
+/*.navbar-default .navbar-nav li:nth-child(3).active a {*/
+    /*color: deepskyblue;*/
+    /*background-color: black;*/
+/*}*/
